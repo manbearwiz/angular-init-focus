@@ -1,9 +1,10 @@
 # angular-init-focus
-Attribute directive to autofocus element upon creation
+
+Attribute directive to automatically focus on new elements upon creation.
 
 ## Usage
 
-```
+```html
   <div ng-repeat="answer in $ctrl.items">
     <input type="text" init-focus>
   </div>
